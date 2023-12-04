@@ -20,10 +20,32 @@ console.log(str2.lastIndexOf('What'));
 let str3 = 'Wtat is the World?';
 console.log(str3.search('worold'/i));
 
+let str4 = 'Wtat is the World?';
+console.log(str4.includes(is));// проверяет наличие подстраки true/false
+
 3. Напишите код, который делает первый символ заглавным. Например, `"настя"` ⇒ `"Настя"`
-4. Какой метод округления используется для округления числа по математическим правилам?
-5. Как сгенерировать случайное число в диапазоне от 1 до 100 включительно?
-6. Какими способами можно преобразовать число в строку в JavaScript?
+
+let textSmall = 'настя';
+let textBig = textSmall.replace('н', textSmall[0].toUpperCase());
+console.log(textBig);
+
+4.  Какой метод округления используется для округления числа по математическим правилам?
+
+Math.round(number);
+
+5.  Как сгенерировать случайное число в диапазоне от 1 до 100 включительно?
+
+let randomNum = Math.ceil(Math.random() \*100);
+console.log(randomNum);
+
+6.  Какими способами можно преобразовать число в строку в JavaScript?
+
+- поставив число в кавычки
+- или функцией string
+  let number = 100;
+  let numberToString = string(number);
+  console.log(numberToString);
+
 7. Что выведет в консоль?
 
 ```jsx
