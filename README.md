@@ -52,39 +52,40 @@ console.log(randomNum);
 let str = "розы такие розы";
 str = str.replace("розы", "красивые");
 
-console.log(str);
+console.log(str); // красивые такие розы
 ```
 
-1. Что выведет в консоль?
+8. Что выведет в консоль?
 
 ```jsx
 const x = "Солнце";
 
 console.log("The string length is " + x.length);
+// The string length is 6
 ```
 
-1. Что выведет в консоль?
+9. Что выведет в консоль?
 
 ```jsx
 const originalText = "ВелоСипед";
 const upperText = originalText.toUpperCase();
 
-console.log(upperText);
+console.log(upperText); //ВЕЛОСИПЕД
 ```
 
-1. Что выведет в консоль?
+10. Что выведет в консоль?
 
 ```jsx
 let str = "розы такие розы";
 str.replace("розы", "красивые");
 
-console.log(str);
+console.log(str); // розы такие розы
 ```
 
-1. Что выведет в консоль?
+11. Что выведет в консоль?
 
 ```jsx
 const str = "abcdefghij";
 
-console.log("(2,3): " + str.substring(2, 5));
+console.log("(2,3): " + str.substring(2, 5)); // (2,3): cdef
 ```

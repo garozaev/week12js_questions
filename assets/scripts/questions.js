@@ -22,5 +22,5 @@ let randomNum = Math.ceil(Math.random() *100);
 console.log(randomNum);
 
 let number = 100;
-let numberToString = toString(number);
-console.log(numberToString);
+let notNumber = number.toString();
+console.log(notNumber);
